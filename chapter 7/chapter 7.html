@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<h1>Chapter No.7 Forms</h1>
+
+<form>
+	<fieldset> <!--this element is use to group data in this form -->
+
+	<legend>Your Detail:</legend> <!--this element is use to give a caption to grouped data in form -->
+
+	Name: <input type="text" name="Name"><br><br>
+	Email: <input type="Email" name="Email">
+	</fieldset>
+
+</form>
+<br>
+<form>
+	<fieldset>
+	<legend>Your Review: </legend>
+
+	How did you hear about us? 
+	<select>
+		<option name="gg" id="gg">Google</option>
+		<option name="fb" id="fb">Facebook</option>
+		<option name="yt" id="yt">Youtube</option>
+	</select><br><br>
+
+	Would you visit us again?<br>
+	<input type="radio" name="option" id="yes" value="yes"> Yes
+	<input type="radio" name="option" id="no" value="no"> No
+	<input type="radio" name="option" id="mybe" value="mybe"> Mybe
+	<br><br>
+	Comments:<br>
+	<textarea name="Comments" id="Comments" rows="10" cols="30">Your Valuable Comments here...</textarea>
+	<br><br>
+	<input type="checkbox" name="checkbox"> Sign me up for the email updates.
+	<br><br>
+
+	<button value="submit">Submit Form</button>
+	</fieldset>
+</form>
+
+
+
+</body>
+</html>
